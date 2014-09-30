@@ -1,0 +1,10 @@
+13:55 2014/9/30 星期二
+1. 提交代码到仓库步骤：
+	(1)git init
+	(2)git add <fileName>
+	(3)git commit -m "<commit comment>"
+	(4)git remote add origin https://github.com/XuWensong/testprogram.git
+	(5)git push -u origin master
+2. 问题说明：若在git push -u origin master出现403错误是可已将.git/config的文件中url = https://github.com/XuWensong/testprogram.git
+   更改为url = https://XuWensong@github.com/XuWensong/testprogram.git
+3. 使用git clone https://github.com/XuWensong/testprogram.git将master分下的testprogram.git项目下载本地目录下。
